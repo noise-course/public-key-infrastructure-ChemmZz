@@ -13,7 +13,7 @@ And then opened <http://localhost> in Chrome to see if it was working.
 It indeed was and showed a *"It works!"* message.
 After that I navigated to the Document Root where Apache server files are located
 ``` cd /Library/WebServer/Documents/
-ls> ´´´
+ls> ```
 
 In here I created my [web page](screenshots/localhost_working.png) that given that it's only HTTP, the browser flags as [_Not Secure_](screenshots/localhost_nosecure.png)
 
