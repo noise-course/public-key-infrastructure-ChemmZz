@@ -92,3 +92,9 @@ To add it in my OS system (MacOS) I had to open Keychain Access and there add th
 
 Now with HTTPS and the certificate the only thing that I can see is that there was a handshake between my machine and the web server, and if I try to check the information on what I'm interacting with, I only see that the connection is [encrypted](screenshots/encrypted.png), a potential eavesdropper can see that there was a request and a response but not the content of them.
 
+Two Wireshark packages are also in this repo:
+- 1. [HTTP](200ok_http.pcapng.gz) captured package where we can see all the in the server's response that the potential third party was able to see, i.e. all the information of the web page
+- 2. [HTTPS](https_handshake.pcapng) captured package where we can see the handshake protocol completed and that the information being send and receipt is encrypted.
+
+Made by:
+  Chema Galvez 
